@@ -1,0 +1,14 @@
+
+public class unicode {
+	public static void main(String[] args) 
+	{
+		
+		System.out.println("test");
+//		//int i = 0;
+//		char ch;
+//		for(int i = 0; i>65536; i++) {
+//			ch = (char)i;
+//			System.out.println(ch);
+//		}
+	}
+}

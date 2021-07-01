@@ -1,0 +1,19 @@
+
+public class unicode {
+	public static void main(String[] args) 
+	{
+		char ch;
+		System.out.println("test");
+		for(int i=0;i<65532;i++) {
+			ch = (char)i;
+			System.out.println(i);
+			System.out.println(ch);
+		}
+//		//int i = 0;
+//		char ch;
+//		for(int i = 0; i>65536; i++) {
+//			ch = (char)i;
+//			System.out.println(ch);
+//		}
+	}
+}
