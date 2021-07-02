@@ -5,7 +5,7 @@ import java.awt.Graphics;
 
 public class DrawShape extends Frame{
 
-	public static void main(String[] args) {
+	public static void mai(String[] args) {
 		DrawShape win = new DrawShape("도형그리기");
 	}
 	

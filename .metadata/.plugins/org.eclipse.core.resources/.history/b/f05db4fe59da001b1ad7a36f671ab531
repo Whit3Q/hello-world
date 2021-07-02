@@ -1,0 +1,84 @@
+
+public class Ex2_1 {
+
+	public static void main(String[] args) {
+		
+		byte a = 10;
+		byte b= 30;
+		byte c = (byte)(a*b);
+		
+		System.out.println(c);
+		
+		
+		/*
+		 * byte a = 10; byte b = 20; byte c = a + b;
+		 * 
+		 * System.out.println(c);
+		 */
+		
+		/*
+		 * int i = 5; int j = 0; j = i++; System.out.println("j = i++; 실행 후 , i=" + i
+		 * +", j="+j);
+		 * 
+		 * i = 5; j = 0; j = ++i; System.out.println("j=++i; 실행 후, i=" + i +", j=" + j);
+		 * 
+		 */
+		
+		/*
+		 * int score = (int)185.4; byte b = (byte)score;
+		 * 
+		 * System.out.println(score); System.out.println(b);
+		 */
+		/*
+		 * float f = 1.234567890123214876847628f; double d = 1.12398987912837912873921;
+		 * float ff = 0L; System.out.println(f); System.out.println(d);
+		 * 
+		 * for (int i = 0 ; ff <= 110000000000L;i++,ff++) { if (ff == 110000000000L) {
+		 * System.out.println(i); System.out.println(110000000000L); return; } else if
+		 * (ff/10 == 0.0) { System.out.println(ff); } System.out.println(i); }
+		 */		/*
+		 * byte b = 0; int i = 0;
+		 * 
+		 * for (int x = 0; x <= 270; x ++) { System.out.print(b++);
+		 * System.out.print('\t'); System.out.println(i++); }
+		 */
+		
+		/*
+		 * byte b = 1; short s = 2; int finger = 10; long big = 100000000000L;
+		 * 
+		 * System.out.println(b); System.out.println(s); System.out.println(finger);
+		 * System.out.println(big);
+		 */
+		
+		/*
+		 * char single ='\''; String dblQuote = "\"Hello\""; String root = "c:\\";
+		 * String name = "Ja"+"va";
+		 * 
+		 * System.out.println(single); System.out.println(dblQuote);
+		 * System.out.println(root); System.out.println(name);
+		 */
+		/*
+		 *  CharToCode.java 2-1
+		 *
+		 * int code = 65; char ch = (char)code;
+		 * 
+		 * System.out.println(code); System.out.println(ch);
+		 * 
+		 * 실행결과
+		 * 65
+		 * A		
+		 */
+		
+		
+		/*
+		 * CharToCode.java 2-1
+		 * char ch = 'A'; int code = (int)ch;
+		 * 
+		 * System.out.print(ch); System.out.println(code);
+		 * 실행결과 
+		 * A65
+		 */	
+		
+	}
+
+}
