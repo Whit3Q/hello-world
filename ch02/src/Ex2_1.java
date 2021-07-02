@@ -4,6 +4,10 @@ public class Ex2_1 {
 	public static void main(String[] args) {
 		
 		
+		int a = 10;
+		int ab[] = {1,2,3,4,5};
+		
+		System.out.println(ab);
 		
 		
 		
